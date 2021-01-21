@@ -45,7 +45,7 @@ void wypiszdzialanie(struct dzialanie *wypisz){
         default:
 
             printf("zle dzialanie");
-
+            return ;
     }
     printf("Wynik dzialania: %.2f", wypisz->wynik);
 }
